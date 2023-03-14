@@ -1,0 +1,21 @@
+package unit02;
+
+public class GuessingGame {
+    /*
+    magic number = ?
+    Please type in your name: ?
+
+    optional: easy: 1-5, medium: 1-8, hard: 1-12, extra hard: 1-20
+    Please type in your number:
+    Number should be valid, else quit the game
+    Answer: your number is too low or too high
+    OR Congrats, Wolfgang, you guessed the right number :)
+    optional: you almost got it (for example you missed the number by 1 or 2)
+    optional: 2 chances (without loop)
+    optional2: 5 chances (with loop)
+     */
+
+    public static void main(String[] args) {
+
+    }
+}

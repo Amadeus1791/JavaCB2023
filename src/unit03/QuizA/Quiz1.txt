@@ -1,0 +1,18 @@
+        int n = 1;
+        int k = 2;
+        int r = n;
+        if (k < n) {
+            r = k;
+        }
+
+        int n = 1; int k = 2; int r;
+        if (n < k) { r = k; }
+        else { r = k + n; }
+
+        int n = 1; int k = 2; int r = k;
+        if (r < k) { n = r; }
+        else { k = n; }
+
+        int n = 1; int k = 2; int r = 3;
+        if (r < n + k) { r = 2 * n; }
+        else { k = 2 * r; }
