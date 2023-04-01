@@ -1,6 +1,6 @@
-package unit04;
+package unit05;
 
-public class ArrayNames {
+public class ArrayNames2 {
 
     public static void main(String[] args) {
         String[] names = new String[11];
@@ -17,20 +17,14 @@ public class ArrayNames {
         names[9] = "Natalia";
         names[10] = "Stefan";
 
-        // Wolfgang Felix Konstantin
-        String allNames = "";
+        // 1. just print the name with a certain start letter
+        // 2. add to every element an "@" at the beginning of the name
+        // 3a. the number of letter of all the names together
+        // 3b. count the occurrences of the letter 'a' in all the elements
+        // 3c. make a new array with duplicate values ==> ["Wolfgang", "Wolfgang", "Felix", "Felix", ...]
         for (int i = 0; i < names.length; i++) {
-            allNames += names[i];
-            allNames += " ";
-            if (names[i].length() <= 5) {
-              //  System.out.println(names[i]);
-            }
-/*            String value = names[i];
-            if (value.length() <= 5) {
-                System.out.println(names[i]);
-            }*/
+
         }
-        System.out.println(allNames);
 
     }
 }
