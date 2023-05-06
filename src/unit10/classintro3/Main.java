@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String
+
         Circle circle1 = new Circle();
         Circle circle2 = new Circle(5);
         circle1.printComplete();
