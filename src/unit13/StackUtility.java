@@ -42,6 +42,7 @@ public class StackUtility {
 
     public boolean checkParenthesis(String input) {
         // iterate over string
+
         for (int i = 0; i < input.length(); i++) {
             char currentChar = input.charAt(i);
             if (currentChar == '(') {
