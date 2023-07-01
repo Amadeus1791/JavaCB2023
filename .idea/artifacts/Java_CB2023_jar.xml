@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java_CB2023:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_CB2023_jar</output-path>
+    <root id="archive" name="Java_CB2023.jar">
+      <element id="module-output" name="Java_CB2023" />
+    </root>
+  </artifact>
+</component>
